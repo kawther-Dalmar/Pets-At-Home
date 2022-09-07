@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: pink;
+}
+h1{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+
+}
+.container{
+    text-align: center;
+}
+.btn{
+    padding: 30px 50px;
+    min-width: 200px;
+    margin: 10px;
+    border: none;
+    background-color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+    color: plum;
+    background-image: url("./img/bird.jpg");
+    background-size: cover;
+}
+.btn:hover{
+    color: pink;
+}
+.btn:active{
+    background-size: 105%;
+}
